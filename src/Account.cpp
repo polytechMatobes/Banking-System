@@ -1,9 +1,11 @@
 #include "Account.hpp"
 
+using namespace::std;
+
 void Account::printAccount()const{
-    std::cout << "id: #" << id << std::endl;
-    std::cout << "Баланс: " << balance << std::endl;
-    std::cout << "Имя: " << user_name << std::endl;
+    cout << "id: #" << id << endl;
+    cout << "Баланс: " << balance << endl;
+    cout << "Имя: " << user_name << endl;
 }
 
 bool Account::deposit(long double amount){
